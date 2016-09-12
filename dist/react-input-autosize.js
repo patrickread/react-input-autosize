@@ -20,6 +20,8 @@ var AutosizeInput = React.createClass({
 		React.PropTypes.number, React.PropTypes.string]),
 		onAutosize: React.PropTypes.func, // onAutosize handler: function(newWidth) {}
 		onChange: React.PropTypes.func, // onChange handler: function(newValue) {}
+		onBlur: React.PropTypes.func, // onBlur handler: function() {}
+		onFocus: React.PropTypes.func, // onFocus handler: function() {}
 		placeholder: React.PropTypes.string, // placeholder text
 		placeholderIsMinWidth: React.PropTypes.bool, // don't collapse size to less than the placeholder
 		style: React.PropTypes.object, // css styles for the outer element
